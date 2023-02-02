@@ -1,0 +1,17 @@
+@import url('base/_variables.scss');
+
+*{
+    font-family: 'Museo', sans-serif;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;   
+}
+
+@import url('block/_promo.scss');
+@import url('block/_header.scss');
+
+
+
+

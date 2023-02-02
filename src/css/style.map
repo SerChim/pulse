@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"\r\n*{\r\n    font-family: 'Museo', sans-serif;\r\n}\r\n\r\n.container{\r\n    max-width: 950px;\r\n    margin: 0 auto;   \r\n}\r\n\r\n@import url('base/_variables.scss');\r\n@import url('block/_promo.scss');\r\n@import url('block/_header.scss');\r\n"
+	],
+	"names": [],
+	"mappings": "AAUA,OAAO,CAAC,2BAAI;AACZ,OAAO,CAAC,wBAAI;AACZ,OAAO,CAAC,yBAAI;;AAXZ,AAAA,CAAC,CAAA;EACG,WAAW,EAAE,mBAAmB;CACnC;;;AAED,AAAA,UAAU,CAAA;EACN,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;CACjB"
+}
