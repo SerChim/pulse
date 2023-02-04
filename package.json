@@ -1,13 +1,21 @@
 {
-  "name": "uber",
+  "name": "pulse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerChim/PuLs.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerChim/PuLs/issues"
+  },
+  "homepage": "https://github.com/SerChim/PuLs#readme",
   "devDependencies": {
     "browser-sync": "^2.27.11",
     "gulp": "^4.0.2",
