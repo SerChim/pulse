@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a class="header__logo">
@@ -22,7 +23,7 @@
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button class="button">заказать звонок</button>
+                    <button class="button header_button">заказать звонок</button>
                 </div>
 
             </header>
@@ -47,12 +48,64 @@
                 <button class="button button_main">заказать консультацию</button>
                 <div class="promo__link">
                     или
-
                     <a href="#">Перейти в каталог</a>
                 </div>
-            </div>
-            
+            </div>        
         </div>
-    </div>
+    </section>
+    <section class="benefits">
+        <div class="container">
+                <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="benefits__items">
+                <div class="benefits__item">
+                    <img src="img/benefits/cup.png" alt="cup">
+                    <div class="benefits__subheader">Делимся опытом</div>
+                    <div class="benefits__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+                </div>
+                <div class="benefits__item">
+                    <img src="img/benefits/heart.png" alt="heart">
+                    <div class="benefits__subheader">Заботимся о здоровье</div>
+                    <div class="benefits__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+                </div>
+                <div class="benefits__item">
+                    <img src="img/benefits/shoe.png" alt="shoe">
+                    <div class="benefits__subheader">Учим бегать</div>
+                    <div class="benefits__descr">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в Укрвине <a href="#">- I LOVE RUNNING.</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра 
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки  <br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form action="#" class="feed-form">
+                <input name="name" required type="text" placeholder="Ваше имя">
+                <input name="phone" required type="tel" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваш E-mail">
+
+                <button class="button button_submit">Заказать коннсультацию</button>
+            </form>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/product_slider/slide_numb_1.jpg" alt="slide"></div>
+                <div><img src="img/product_slider/slide_numb_2.jpg" alt="slide"></div>
+                <div><img src="img/product_slider/slide_numb_3.jpg" alt="slide"></div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
